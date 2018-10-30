@@ -206,10 +206,9 @@ a {
 
 .twitter {
     background-image:url("../twitter-icon.png");
-    width: 64px;
-    height: 64px;
+    width: 80px;
+    height: 80px;
     background-repeat: no-repeat;
-    text-indent:-99999em;
     background-position: center center;
     background-size: cover;
     margin-bottom: 10px;
@@ -217,9 +216,8 @@ a {
 
 .facebook {
     background-image:url("../facebook-icon.png");
-    width: 64px;
-    height: 64px;
-    text-indent:-99999em;
+    width: 80px;
+    height: 80px;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -228,10 +226,9 @@ a {
 
 .instagram {
     background-image:url("../instagram-icon.png");
-    width: 64px;
-    height: 64px;
+    width: 80px;
+    height: 80px;
     background-repeat: no-repeat;
-    text-indent:-99999em;
     background-position: center center;
     background-size: cover;
 }
