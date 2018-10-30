@@ -1,12 +1,19 @@
 html {
      margin: 0;
      padding: 0;
+     background: #4AAEC1;
  }
  
 /*Fonts*/
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Happy Monkey', cursive;
+h1 {  
+    font-family: 'Open Sans', sans-serif;
+    color: #282557;
+    font-size: 48px;
+}
+
+h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans', sans-serif;
 }
 
 body {
@@ -16,9 +23,9 @@ body {
 /*Social Scroll Bar*/
 
 aside#social {
-    background: lime;
+    background: #8DA5B5;
+    color: #EFF3F2;
     width: 200px;
-    height: auto;
     position: fixed;
     top: 50px;
     right: 20px;
@@ -28,6 +35,7 @@ aside#social {
 
 ul.social-links {
     display: none;
+    list-style: none;
 }
 
 aside#social:hover ul.social-links {
@@ -37,21 +45,53 @@ aside#social:hover ul.social-links {
 /*Header*/
 
 header {
-    height: 300px;
-    background: url(../img/monkaa_bluemonkey.jpg);
+    height: 325px;
+    background: url(../img/monkaa_monkeyhang.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 100px 20px 20px 20px;
+    padding: 20px;
+    margin-bottom: 10px;
+    border: 5px solid #968B77;
+    text-align: center;
 }
 
-h1 {
-    background: rgba(255,255,255,0.6);
-    padding: 5px;
+header li {
+    list-style: none;
     display: inline;
 }
 
+.main-nav a {
+    text-decoration: none;
+}
+
+/*Media & Downloads*/
+
+video {
+    width: 50%;
+    height: auto;
+}
+
+.download-button {
+  background: #282557;
+  border: 2px solid #4AAEC1; 
+  padding: 5px;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: bold;
+  border-radius: 4em;
+}
+
+.download-button:hover {
+  background-color: #EFF3F2;
+}
+
+
 /*About*/
+
+#about {
+    text-align: center;
+}
 
 .headshot {
     height: 150px;
@@ -61,39 +101,52 @@ h1 {
 
 .weybec-people {
     list-style: none;
-    display: inline-flex;
-    text-align: center;
 }
 
 .weybec-people li {
     margin-right: 25px;
+    float: left;
+    padding: 10px 10px;
+}
+
+.weybec-people:after {
+    content: "";
+    display: block;
+    clear:both;
 }
 
 /*Footer*/
 
 footer {
-    background: grey;
     padding-bottom: 15px;
     margin-top: -5px;
-    
+    text-align: center;
+    border: 5px solid #968B77;
+    background: #EFF3F2;
+    color: #282557;
+}
+
+footer li {
+    list-style: none;
+    display: inline;
+}
+
+footer a {
+    color: #4AAEC1;
 }
 
 section {
-    padding-top: 50px;
+    padding-top: 25px;
     padding-bottom: 25px;
     padding-left: 10px;
     padding-right: 10px;
     margin-bottom: 10px;
+    border: 5px solid #968B77;
+    background: #EFF3F2;
+    color: #282557;
+    text-align: center;
 }
 
-section#watch {
-    background: yellow;
-}
-
-section#about {
-    background: cornflowerblue;
-}
-
-section#listen {
-    background: violet;
+section a {
+    color: #4AAEC1;
 }
