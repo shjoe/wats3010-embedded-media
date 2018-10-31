@@ -110,6 +110,7 @@ video {
     display: inline-block;
     font-weight: bold;
     border-radius: 4em;
+    
 }
 
 .download-button:hover {
@@ -168,7 +169,8 @@ footer {
     background-image: url(../img/monkaa_title_footer.jpg);
     height: 250px;
     background-repeat: no-repeat;
-    background-size: cover;    
+    background-size: cover;  
+    background-position: center center;
 }
 
 footer li {
