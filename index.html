@@ -14,7 +14,6 @@
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
     </head>
     <body>
-
         <header>
             <h1>Monkaa</h1>
             <p class="subtitle">An open source short film</p>
@@ -38,7 +37,7 @@
 
         <section id="watch">
             <h2>Watch</h2>
-            <video controls>
+            <video class="video" controls>
                 <source src="media/video/monkaa_1080p.webm" type="video/webm">
                 <source src="media/video/monkaa_1080p.mp4" type="video/mp4">
                 <p>Your browser does not support HTML5 Video.</p>
@@ -61,6 +60,13 @@
             <p>
                 <a class="download-button" href="media/audio/monkaa_soundtrack.mp3"><i class="far fa-arrow-alt-circle-down"><span class="download_font">Download as MP3</span></i></a>
             </p>
+        </section>
+        
+        <section id="loop">
+         <video class="video-loop" autoplay loop muted>
+                <source src="media/video/flying_monkey_loop.mp4" type="video/mp4">
+                <p>Your browser does not support HTML5 Video.</p>
+            </video>
         </section>
 
         <section id="about">

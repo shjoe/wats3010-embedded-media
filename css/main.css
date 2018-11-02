@@ -47,6 +47,12 @@ ul.social-links {
     display: block;
 }
 
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
 /*Header*/
 
 header {
@@ -96,7 +102,7 @@ header nav {
 
 /*Media & Downloads*/
 
-video {
+.video {
     width: 70%;
     height: auto;
 }
@@ -124,6 +130,16 @@ span.download_font {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+/*Video Loop*/
+
+.video-loop {
+    width: 500px;
+    height: auto;
+    padding-top: 20px;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 /*About*/
