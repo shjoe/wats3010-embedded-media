@@ -145,6 +145,8 @@ video {
 
 .weybec-people {
     list-style: none;
+    display: flex;
+    justify-content: center;
 }
 
 .weybec-people li {
