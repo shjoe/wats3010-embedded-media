@@ -24,7 +24,7 @@ body {
 
 /*Social Scroll Bar*/
 
-#social {
+.social {
     background: #282557;
     color: #EFF3F2;
     width: 150px;
@@ -43,7 +43,7 @@ ul.social-links {
 }
 
 
-#social:hover ul.social-links {
+.social:hover ul.social-links {
     display: block;
 }
 
@@ -125,7 +125,7 @@ span.download_font {
     font-weight: bold;
 }
 
-#listen {
+.listen {
     background: url(../img/monkaa_monkeyhang.jpg);
     background-position: center center;
     background-repeat: no-repeat;
@@ -143,11 +143,6 @@ span.download_font {
 }
 
 /*About*/
-
-#about {
-    text-align: center;
-}
-
 
 .lead {
     line-height: 2;
